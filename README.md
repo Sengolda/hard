@@ -5,7 +5,7 @@
 ```
 ---start---
 
-output uwu
+output "uwu"
 
 ---end---
 ```
