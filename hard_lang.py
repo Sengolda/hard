@@ -9,4 +9,5 @@ if len(sys.argv) == 2:
                     for line in lines:
                         if line.startswith("output"):
                             l = line.split(" ")
-                            print(l[1])
+                            l1 = l[1].strip('""').strip("''")
+                            print(l1)
